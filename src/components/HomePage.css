@@ -1,0 +1,43 @@
+/* HomePage.css */
+
+.homepage-container {
+  background: #f5f5f5;
+  border-radius: 8px;
+  padding: 40px;
+  max-width: 400px;
+  margin: auto;
+  margin-top: 100px;
+  box-shadow: 0px 0px 20px rgba(0, 0, 0, 0.1);
+  transform: translate3d(10px, 20px, 0);
+  transition: transform 0.9s ease;
+}
+
+.homepage-header {
+  font-size: 24px;
+  color: #333;
+  margin-bottom: 20px;
+}
+
+.input-field {
+  width: calc(100% - 40px);
+  padding: 12px 20px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  outline: none;
+  margin-bottom: 20px;
+}
+
+.join-button {
+  width: calc(100% - 40px);
+  padding: 12px 0;
+  border: none;
+  border-radius: 5px;
+  background-color: #1d98f0;
+  color: #fff;
+  cursor: pointer;
+  transition: background-color 0.3s;
+}
+
+.join-button:hover {
+  background-color: #156dbf;
+}
