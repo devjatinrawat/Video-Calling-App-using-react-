@@ -16,7 +16,7 @@ const VideoPage = () => {
       serverSecret,
       roomID,
       Date.now().toString(),
-      "Mujahid"
+      "Jatin"
     );
 
     // Create instance object from Kit Token.
